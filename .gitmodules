@@ -4,3 +4,7 @@
 [submodule "3rd_party/crow"]
 	path = 3rd_party/crow
 	url = https://github.com/ipkn/crow
+[submodule "3rd_party/marian"]
+	path = 3rd_party/marian
+	url = https://github.com/kdavis-mozilla/marian-dev.git
+	branch = macos-mts-backend-stable
