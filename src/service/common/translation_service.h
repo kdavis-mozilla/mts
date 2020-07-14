@@ -89,7 +89,7 @@ public:
        const std::string& input,
        const TranslationOptions* topts=NULL,
        const size_t priority=0, // currently has no effect, yet to be implemented
-       std::function<void (Ptr<Job> j)> callback =[=](Ptr<Job> j){return;});
+       std::function<void (Ptr<Job> j)> callback =[](Ptr<Job> j){return;});
 
 
   void stop();
