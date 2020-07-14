@@ -5,3 +5,7 @@
 	path = 3rd_party/marian
 	url = https://github.com/kdavis-mozilla/marian-dev.git
 	branch = macos-mts-backend-stable
+[submodule "3rd_party/ssplit-cpp"]
+	path = 3rd_party/ssplit-cpp
+	url = https://github.com/kdavis-mozilla/ssplit-cpp.git
+	branch = macos-mts-backend-stable
