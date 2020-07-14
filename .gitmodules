@@ -1,6 +1,3 @@
-[submodule "3rd_party/ssplit-cpp"]
-	path = 3rd_party/ssplit-cpp
-	url = http://github.com/ugermann/ssplit-cpp
 [submodule "3rd_party/crow"]
 	path = 3rd_party/crow
 	url = https://github.com/ipkn/crow
