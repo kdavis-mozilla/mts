@@ -10,7 +10,7 @@
 namespace marian {
 namespace server {
 
-class OutputOptions;
+struct OutputOptions;
 class PlainTextTranslation;
 class TranslationService;
 
