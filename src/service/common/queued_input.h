@@ -59,6 +59,7 @@ public:
   void reset() override {}
   void prepare() override {}
   size_t size() const { return job_queue_.size(); }
+  virtual ~QueuedInput();
 };
 
 }}  // namespace marian::data

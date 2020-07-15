@@ -110,5 +110,8 @@ bool QueuedInput::push(Ptr<server::Job> job) {
   return status == JobQueue::SUCCESS;
 }
 
+QueuedInput::~QueuedInput() {
+}
+
 }  // namespace data
 }  // namespace marian
